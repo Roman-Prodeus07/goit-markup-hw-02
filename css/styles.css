@@ -1,14 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #333;
+    color: #434455;
+    background-color: #FFFFFF;
     margin: 0;
     padding: 0;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px;
     background-color: #f8f8f8;
 }
@@ -25,7 +23,6 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
 }
 
 nav li {
@@ -77,13 +74,11 @@ main section {
 
 .services-section {
     background-color: #f8f8f8;
-    display: flex;
-    justify-content: space-around;
-    padding: 40px 0;
 }
 
 .service {
     max-width: 220px;
+    margin: 0 auto;
 }
 
 .service-title {
@@ -110,7 +105,6 @@ main section {
 }
 
 .team li, .portfolio li {
-    width: 240px;
     margin: 10px;
     text-align: center;
 }
