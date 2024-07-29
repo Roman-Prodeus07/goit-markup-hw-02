@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2e2f42;
-    background-color: #f8f9fa;
+    color: #434455;
+    background-color: #FFFFFF;
     line-height: 1.6;
 }
 
@@ -30,16 +30,16 @@ header {
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 18px; /* розмір шрифту */
-    line-height: 1.17; /* простір між рядками */
-    letter-spacing: 0.03em; /* відступи між літерами */
-    text-transform: uppercase; /* відображення літер */
-    color: #4d5ae5; /* колір тексту */
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
     text-decoration: none;
 }
 
 .logo-text {
-    color: #2e2f42; /* колір тексту для span */
+    color: #2e2f42;
 }
 
 .nav-links {
@@ -48,24 +48,24 @@ header {
 }
 
 .nav-link {
-    font-weight: 500; /* жирність шрифту для посилання у першому пункті списку */
+    font-weight: 500;
     margin-left: 20px;
     text-decoration: none;
 }
 
 .nav-link[href="./index.html"] {
-    line-height: 1.5; /* простір між рядками */
-    letter-spacing: 0.02em; /* відступи між літерами */
-    color: #2e2f42; /* колір тексту */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .nav-link[href="./index.html"]:hover,
 .nav-link[href="./index.html"]:focus {
-    color: #404bbf; /* колір тексту при наведенні та фокусі */
+    color: #404bbf;
 }
 
 .contact-info {
-    font-style: normal; /* прибирання курсиву */
+    font-style: normal;
     max-width: 1200px;
     margin: 20px auto;
     padding: 0 20px;
@@ -78,17 +78,17 @@ header {
 }
 
 .contact-info .contact-link {
-    font-size: 16px; /* розмір шрифту */
-    line-height: 1.5; /* простір між рядками */
-    letter-spacing: 0.02em; /* відступи між літерами */
-    color: #434455; /* колір тексту */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
     text-decoration: none;
     margin-left: 20px;
 }
 
 .contact-info .contact-link:hover,
 .contact-info .contact-link:focus {
-    color: #404bbf; /* колір тексту при наведенні та фокусі */
+    color: #404bbf;
 }
 
 .hero-section {
