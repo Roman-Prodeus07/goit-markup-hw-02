@@ -171,14 +171,16 @@ header {
     color: #434455;
 }
 
+/* Секція команди */
 .team-section {
-    background-color: #ffffff;
+    background-color: #F4F4FD; /* Встановлює фон секції */
     padding: 50px 20px;
     text-align: center;
 }
 
 .team-section .section-title {
-    font-size: 2em;
+    font-size: 36px; /* Встановлює розмір шрифту заголовка */
+    line-height: 1.11; /* Встановлює міжрядковий інтервал заголовка */
     margin-bottom: 30px;
 }
 
@@ -198,6 +200,7 @@ header {
 .team img {
     border-radius: 50%;
 }
+
 
 .portfolio-section {
     background-color: #F4F4FD;
