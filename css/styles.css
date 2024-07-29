@@ -173,17 +173,17 @@ header {
 
 /* Секція команди */
 .team-section {
-    background-color: #F4F4FD; 
+    background-color: #F4F4FD; /* Встановлює фон секції */
     padding: 50px 20px;
     text-align: center;
 }
 
 .team-section .section-title {
-    font-size: 36px; 
-    line-height: 1.11; 
-    letter-spacing: 0.02em; 
-    text-transform: capitalize; 
-    color: #2e2f42; 
+    font-size: 36px; /* Встановлює розмір шрифту заголовка */
+    line-height: 1.11; /* Встановлює міжрядковий інтервал заголовка */
+    letter-spacing: 0.02em; /* Встановлює відступи між літерами */
+    text-transform: capitalize; /* Змінює регістр заголовка на початкові великі літери */
+    color: #2e2f42; /* Встановлює колір тексту заголовка */
     margin-bottom: 30px;
 }
 
@@ -198,11 +198,31 @@ header {
     margin: 20px;
     flex: 1 1 200px;
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; /* Встановлює фон для пунктів списку */
 }
 
 .team img {
     border-radius: 50%;
+}
+
+.team li img {
+    width: 360px; /* Встановлює ширину зображення */
+    height: 356px; /* Встановлює висоту зображення */
+}
+
+.team .team-member-title {
+    font-size: 20px; /* Встановлює розмір шрифту заголовка члена команди */
+    line-height: 1.2; /* Встановлює міжрядковий інтервал заголовка члена команди */
+    letter-spacing: 0.02em; /* Встановлює відступи між літерами заголовка члена команди */
+    color: #2e2f42; /* Встановлює колір тексту заголовка члена команди */
+    font-weight: 500; /* Встановлює жирність шрифту заголовка члена команди */
+}
+
+.team .team-member-role {
+    font-size: 16px; /* Встановлює розмір шрифту для ролі члена команди */
+    line-height: 1.5; /* Встановлює міжрядковий інтервал для ролі члена команди */
+    letter-spacing: 0.02em; /* Встановлює відступи між літерами для ролі члена команди */
+    color: #434455; /* Встановлює колір тексту для ролі члена команди */
 }
 
 
