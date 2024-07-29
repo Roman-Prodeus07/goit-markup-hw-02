@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -14,8 +13,8 @@ body {
 
 header {
     background-color: #ffffff;
-    padding: 20px 0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px 0;
 }
 
 .navigation {
@@ -96,7 +95,6 @@ header {
 .main-title {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
 }
@@ -142,7 +140,6 @@ header {
 .services-section li {
     background-color: #ffffff;
     padding: 20px;
-    text-align: center;
 }
 
 .service-title {
