@@ -13,7 +13,6 @@ body {
 
 header {
     background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding: 20px 0;
 }
 
@@ -108,7 +107,6 @@ header {
     letter-spacing: 0.04em;
     color: #ffffff;
     border: none;
-    padding: 15px 30px;
     margin-top: 20px;
     cursor: pointer;
 }
@@ -139,7 +137,6 @@ header {
 
 .services-section li {
     background-color: #ffffff;
-    padding: 20px;
 }
 
 .service-title {
@@ -225,7 +222,6 @@ header {
 .portfolio-item {
     margin: 20px;
     background-color: #FFFFFF;
-    padding: 20px;
     text-align: center;
 }
 
