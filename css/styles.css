@@ -200,12 +200,12 @@ header {
 }
 
 .portfolio-section {
-    background-color: #f8f9fa;
+    background-color: #F4F4FD;
     padding: 50px 20px;
     text-align: center;
 }
 
-.portfolio-section .section-title {
+.portfolio-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -214,17 +214,18 @@ header {
     margin-bottom: 30px;
 }
 
-.portfolio {
+.portfolio-list {
     list-style: none;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 0;
 }
 
-.portfolio li {
-    margin: 20px;
+.portfolio-item {
     flex: 1 1 200px;
-    background-color: #ffffff;
+    margin: 20px;
+    background-color: #FFFFFF;
     padding: 20px;
     text-align: center;
 }
