@@ -246,10 +246,15 @@ header {
     color: #434455;
 }
 
+/* CSS змінні */
+:root {
+    --footer-text-color: #F4F4FD;
+}
+
 /* Футер */
 .site-footer {
     background-color: #2e2f42;
-    color: #ffffff;
+    color: var(--footer-text-color);
     text-align: center;
     padding: 20px 0;
 }
@@ -272,4 +277,7 @@ header {
 .footer-description {
     margin-top: 10px;
     font-size: 1em;
+    line-height: 1.5;
+    color: var(--footer-text-color);
+    letter-spacing: 0.02em;
 }
